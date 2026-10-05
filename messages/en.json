@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "title": "RoomLab",
+    "description": "Design your space before you move a thing."
+  },
+  "nav": {
+    "showcase": "Showcase",
+    "home": "RoomLab"
+  },
+  "landing": {
+    "kicker": "Interior study",
+    "title": "Design your space before you move a thing.",
+    "lede": "Draw the room, drop the furniture, and walk through it in three dimensions before anything heavy moves.",
+    "create": "Create a room",
+    "import": "Import floor plan",
+    "showcase": "Public designs"
+  },
+  "create": {
+    "title": "New room",
+    "importTitle": "Import a floor plan",
+    "type": "Room",
+    "name": "Room name",
+    "width": "Width",
+    "depth": "Depth",
+    "file": "Plan image",
+    "submit": "Open editor",
+    "cancel": "Cancel"
+  },
+  "editor": {
+    "undo": "Undo",
+    "redo": "Redo",
+    "save": "Save",
+    "saving": "Saving",
+    "saved": "Saved to your account",
+    "saveLocal": "Kept in this browser. Add Supabase keys to publish.",
+    "saveError": "Could not save",
+    "fit": "Zoom to fit",
+    "walk": "Enter room",
+    "exitWalk": "Exit walk",
+    "walkHint": "Click to look. WASD to move. Esc releases the mouse.",
+    "objects": "{count} objects"
+  },
+  "tools": {
+    "select": "Select",
+    "wall": "Wall",
+    "door": "Door",
+    "window": "Window",
+    "measure": "Measure",
+    "text": "Text",
+    "scale": "Set scale"
+  },
+  "library": {
+    "title": "Furniture",
+    "search": "Search...",
+    "empty": "Nothing matches.",
+    "living": "Living Room",
+    "dining": "Dining",
+    "kitchen": "Kitchen",
+    "bedroom": "Bedroom",
+    "bathroom": "Bathroom",
+    "office": "Office",
+    "entry": "Entry",
+    "laundry": "Laundry"
+  },
+  "rooms": {
+    "living": "Living Room",
+    "dining": "Dining Room",
+    "kitchen": "Kitchen",
+    "bedroom": "Bedroom",
+    "bathroom": "Bathroom",
+    "office": "Office",
+    "entry": "Entry",
+    "laundry": "Laundry"
+  },
+  "brands": {
+    "all": "All",
+    "ikea": "IKEA",
+    "muji": "Muji",
+    "west-elm": "West Elm",
+    "generic": "Generic"
+  },
+  "inspector": {
+    "empty": "Select a wall, the floor, or a piece of furniture.",
+    "width": "Width",
+    "depth": "Depth",
+    "rotation": "Rotation",
+    "color": "Color",
+    "duplicate": "Duplicate",
+    "delete": "Delete",
+    "alignLeft": "Align left",
+    "alignCenter": "Align center",
+    "distribute": "Distribute",
+    "group": "Group",
+    "paint": "Paint",
+    "material": "Material",
+    "floor": "Floor",
+    "swing": "Swing",
+    "openingWidth": "Width",
+    "text": "Text",
+    "replace": "Replace",
+    "same": "Same size",
+    "cheaper": "Cheaper",
+    "smaller": "Smaller",
+    "similar": "Similar color",
+    "left": "Left",
+    "right": "Right",
+    "none": "No similar pieces in the catalog.",
+    "custom": "Any color"
+  },
+  "paints": { "white": "White", "sand": "Sand", "olive": "Olive", "navy": "Navy" },
+  "materials": { "paint": "Paint", "brick": "Brick", "concrete": "Concrete", "wood": "Wood" },
+  "floors": { "wood": "Wood", "tile": "Tile", "carpet": "Carpet", "concrete": "Concrete" },
+  "colors": {
+    "white": "White",
+    "ivory": "Ivory",
+    "cream": "Cream",
+    "sand": "Sand",
+    "beige": "Beige",
+    "tan": "Tan",
+    "oak": "Oak",
+    "walnut": "Walnut",
+    "brown": "Brown",
+    "terracotta": "Terracotta",
+    "rust": "Rust",
+    "red": "Red",
+    "coral": "Coral",
+    "pink": "Pink",
+    "blush": "Blush",
+    "orange": "Orange",
+    "amber": "Amber",
+    "yellow": "Yellow",
+    "olive": "Olive",
+    "sage": "Sage",
+    "green": "Green",
+    "mint": "Mint",
+    "teal": "Teal",
+    "sky": "Sky",
+    "blue": "Blue",
+    "navy": "Navy",
+    "indigo": "Indigo",
+    "purple": "Purple",
+    "plum": "Plum",
+    "gray": "Gray",
+    "charcoal": "Charcoal",
+    "black": "Black"
+  },
+  "lighting": {
+    "title": "Lighting",
+    "time": "Time of day",
+    "sun": "Sunlight",
+    "lamps": "Lamps",
+    "north": "North"
+  },
+  "sun": {
+    "direct": "{room} receives direct sunlight from {start}–{end}.",
+    "none": "{room} does not receive direct sunlight with this orientation."
+  },
+  "budget": {
+    "title": "Room budget",
+    "limit": "Budget limit",
+    "total": "Total",
+    "over": "{amount} over budget",
+    "empty": "No priced furniture yet."
+  },
+  "history": {
+    "title": "History",
+    "empty": "Nothing to undo yet.",
+    "created": "Created room",
+    "added": "Added {name}",
+    "moved": "Moved {name}",
+    "rotated": "Rotated {name}",
+    "resized": "Resized {name}",
+    "color": "Changed color",
+    "deleted": "Deleted",
+    "duplicated": "Duplicated",
+    "grouped": "Grouped",
+    "aligned": "Aligned",
+    "wall": "Added wall",
+    "door": "Added door",
+    "window": "Added window",
+    "material": "Changed wall finish",
+    "floor": "Changed floor",
+    "lighting": "Changed lighting",
+    "measure": "Added measurement",
+    "text": "Added text",
+    "layout": "Applied layout {id}",
+    "replaced": "Replaced {name}",
+    "scale": "Set scale",
+    "import": "Imported floor plan",
+    "stress": "Added {count} objects",
+    "budget": "Changed budget",
+    "orientation": "Changed orientation",
+    "before": "Added before photo",
+    "public": "Updated sharing"
+  },
+  "warnings": {
+    "overlap": "{name} overlaps the wall.",
+    "door": "Door cannot fully open.",
+    "clearance": "Only {cm}cm walking clearance between {a} and {b}.",
+    "recommended": "Recommended clearance: 70cm+"
+  },
+  "layouts": {
+    "title": "Auto arrange",
+    "bedroom": {
+      "A": "Bed centered on the main wall.",
+      "B": "Bed beside the window.",
+      "C": "More room for a desk."
+    },
+    "living": {
+      "A": "Sofa on the far wall, console opposite.",
+      "B": "Conversation across the room.",
+      "C": "Sofa near the entry."
+    },
+    "office": {
+      "A": "Desk on the main wall.",
+      "B": "Desk along the side wall.",
+      "C": "Desk near the window."
+    },
+    "dining": {
+      "A": "Table in the middle, sideboard on the far wall.",
+      "B": "Table across the room.",
+      "C": "Smaller table with a pendant."
+    },
+    "kitchen": {
+      "A": "Appliances on the far wall, island in front.",
+      "B": "Fridge on the side, run of cabinets.",
+      "C": "Sink centered, stools in front."
+    },
+    "bathroom": {
+      "A": "Vanity at the entry, shower and toilet behind.",
+      "B": "Bath along the far wall.",
+      "C": "Shower on the side, compact vanity."
+    },
+    "entry": {
+      "A": "Console, bench, and shoes.",
+      "B": "Shoe cabinet and coat rack.",
+      "C": "Narrow hall, storage on one side."
+    },
+    "laundry": {
+      "A": "Washer and dryer side by side.",
+      "B": "Pair in the middle, cabinet at the entry.",
+      "C": "Stacked along the side wall."
+    }
+  },
+  "measure": {
+    "hint": "Click two points. Hold Shift while drawing a wall to lock 0, 45, or 90 degrees.",
+    "empty": "No measurements yet."
+  },
+  "share": {
+    "title": "Share",
+    "public": "Public design",
+    "copy": "Copy link",
+    "copied": "Link copied",
+    "png": "PNG floor plan",
+    "pdf": "PDF design sheet",
+    "json": "JSON backup",
+    "needCloud": "Sharing needs a Supabase project. The file exports still work."
+  },
+  "import": {
+    "hint": "Pick two points on the plan, then enter the real distance.",
+    "distance": "This distance =",
+    "apply": "Set scale",
+    "meters": "meters"
+  },
+  "before": {
+    "title": "Before / design",
+    "upload": "Upload a photo of the room",
+    "before": "Before",
+    "design": "Design"
+  },
+  "showcase": {
+    "title": "Public designs",
+    "lede": "Duplicate a room and make it yours.",
+    "duplicate": "Duplicate design",
+    "empty": "No public designs yet."
+  },
+  "design": {
+    "duplicate": "Duplicate design"
+  },
+  "palette": {
+    "placeholder": "Search commands",
+    "addSofa": "Add sofa",
+    "switch3d": "Switch to 3D",
+    "export": "Export plan",
+    "fit": "Zoom to fit",
+    "measure": "Show measurements",
+    "stress": "Stress test: 500 objects"
+  },
+  "mobile": {
+    "objects": "Objects",
+    "style": "Style",
+    "measure": "Measure",
+    "share": "Share"
+  },
+  "view": { "2d": "2D", "3d": "3D" },
+  "common": { "close": "Close" }
+}
